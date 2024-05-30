@@ -6,10 +6,14 @@
         body {
             font-family: Arial, sans-serif;
         }
+        .row {
+            display: flex;
+        }
         .platform {
             display: flex;
             align-items: center;
             padding: 20px;
+            flex: 1; /* Allow the platforms to take up equal space */
         }
         .platform img {
             max-width: 100px; /* Adjusted for better alignment */
@@ -21,31 +25,31 @@
             color: blue;
             text-decoration: none;
         }
-        .search-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
     </style>
-    <script async src="https://cse.google.com/cse.js?cx=YOUR_CSE_ID"></script>
 </head>
 <body>
-    <div class="search-container">
-        <div class="gcse-search"></div>
+    <div class="row">
+        <div class="platform">
+            <img src="DAZN logo.jpg" alt="DAZN Logo">
+            <a href="https://www.dazn.com/de-DE/home" target="_blank">Für DAZN, hier klicken</a>
+        </div>
+
+        <div class="platform">
+            <img src="WOW logo.jpg" alt="WOW Logo">
+            <a href="https://www.wowtv.de/watch/sport/highlights" target="_blank">Für WOW, hier klicken</a>
+        </div>
     </div>
 
-    <div class="platform">
-        <img src="DAZN logo.jpg" alt="DAZN Logo">
-        <a href="https://www.dazn.com/de-DE/home" target="_blank">Für DAZN, hier klicken</a>
-    </div>
+    <div class="row">
+        <div class="platform">
+            <img src="amazon_logo.png" alt="Prime Logo">
+            <a href="https://www.amazon.de/gp/video/storefront/ref=atv_hm_hom_c_9zZ8D2_hm_sports?contentType=home&contentId=Sports" target="_blank">Für PRIME, hier klicken</a>
+        </div>
 
-    <div class="platform">
-        <img src="WOW logo.jpg" alt="WOW Logo">
-        <a href="https://www.wowtv.de/watch/sport/highlights" target="_blank">Für WOW, hier klicken</a>
-    </div>
-
-    <div class="platform">
-        <img src="amazon_logo.png" alt="Prime Logo">
-        <a href="https://www.amazon.de/gp/video/storefront/ref=atv_hm_hom_c_9zZ8D2_hm_sports?contentType=home&contentId=Sports" target="_blank">Für PRIME, hier klicken</a>
+        <div class="platform">
+            <img src="google_logo.png" alt="Google Logo">
+            <a href="https://www.google.com" target="_blank">Für Google, hier klicken</a>
+        </div>
     </div>
 </body>
 </html>
