@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hilfestellungen zum Programm „Musik“</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hilfestellungen zum Programm „Musik“</h1>
+    
+    <p>Erstmal hier klicken <a href="music://">open Apple Music</a></p>
+    
+    <p>Wenn sich das Programm nicht öffnet:</p>
+    <ul>
+        <li>Auf Tastatur Taste "⌘" gedrückt halten und zusätzlich “Null” drücken</li>
+    </ul>
+    
+    <h2>Lautstärke:</h2>
+    
+    <p>Erstmal hier klicken <a href="music://">open Apple Music</a></p>
+    
+    <p>Dann gleichzeitig Taste "⌘" gedrückt halten und mit Pfeiltasten (unten rechts auf der Tastatur) lauter/leiser stellen:</p>
+    <img src="UpDownKeys.jpg" alt="Up and Down Keys">
+    
+    <p>Auch mit diesen Tasten versuchen, oben rechts auf der Tastatur:</p>
+    <img src="VolumeKeys.jpg" alt="Volume Keys">
+    
+    <h2>Nach Nutzung das Programm am besten beenden! Das geht so:</h2>
+    
+    <ul>
+        <li>Hier klicken <a href="music://">open Apple Music</a></li>
+        <li>Auf Tastatur Taste "⌘" gedrückt halten und zusätzlich “Q” drücken</li>
+    </ul>
+</body>
+</html>
